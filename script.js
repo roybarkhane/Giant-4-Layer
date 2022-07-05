@@ -1,15 +1,24 @@
-console.log('hello');
 const f= document.getElementById("data");
+function printDocument(){
+    const backup=document.body.innerHTML;
+    document.body.innerHTML=`<main>${document.querySelector("main").innerHTML}</main>`;
+    window.print();
+}
 f.addEventListener('submit',(e)=>{
     e.preventDefault();
-    console.log("clicked");
     const ab=document.getElementById("browser").value;
     const name=document.getElementById('name').value;
     const add=document.getElementById("address").value;
     const feet=document.getElementById("feet").value;
     const rate=document.getElementById('rate').value;
     const date= new Date();
-    console.log(date);
+    const print =document.createElement('button');
+    print.classList.add('button');
+    print.textContent='print';
+    const btnsection= document.querySelector('.btn');
+    btnsection.innerHTML="";
+    btnsection.appendChild(print);
+    print.addEventListener('click',printDocument);
     document.querySelector("main").innerHTML=`
     <div class="logo"><img src="logo.png" alt=""></div>
 <h2 class="company-name">
@@ -17,7 +26,7 @@ Giant Waterproofing Co.
 </h2>
 <div class="reg-date">
     <div class="reg-num">GWC/R/16776/2022</div>
-    <div class="date"><span class="dd">${date.getDate()}</span>.<span class="mm">${*(*(date.getMonth()<10)?'0'+(date.getMonth()+1):(date.getMonth()+1)*<10)?'0'+(*(date.getMonth()<10)?'0'+(date.getMonth()+1):(date.getMonth()+1)*+1):(*(date.getMonth()<10)?'0'+(date.getMonth()+1):(date.getMonth()+1)*+1)*}</span>.<span class="yyyy">${date.getFullYear()}</span></div>
+    <div class="date"><span class="dd">${(date.getDate()<10)?'0'+date.getDate():date.getDate()}</span>.<span class="mm">${((date.getMonth()+1)<10)?'0'+(date.getMonth()+1):date.getMonth()+1}</span>.<span class="yyyy">${date.getFullYear()}</span></div>
 </div>
 <div class="name-add">
     <h3 class="name">${ab+' '+name}</h2>
@@ -33,6 +42,9 @@ Giant Waterproofing Co.
     proofing chemicals as per the international standards. In the brand name of <strong>“Giant“</strong>
     since last 15
     years.
+
+    <strong>Giant</strong> is a leading waterproofing expert assuring the right waterproofing solutions for <strong>leak-free homes </strong>
+    with the best waterproofing <strong>services in India</strong>.
 </p>
 <p style="margin-top:20px;">
     <strong> Giant’s 4 Layer Waterproofing treatment </strong>is a Waterproofing technique designed and
@@ -45,7 +57,17 @@ Giant Waterproofing Co.
 ">Description of Chemicals:</h3>
 <dl class="chem-des">
     <ol>
-        
+        <li>
+            <dt>
+                RainSiler :
+            </dt>
+            <dd>
+                <strong> Anti-Fungal, Penetrative & Nano technology of waterproofing.</strong> Drastic
+                Reduction in masonry maintenance cost with long term improved resistance to vagaries of
+                weather Protects Building, saves energy, keeps Substrate dry reducing the thermal
+                conductivity. A water dilatable solution designed to impart repellency to masonry surface.
+            </dd>
+        </li>
         <li>
             <dt>
                 RainPrime :
@@ -55,32 +77,32 @@ Giant Waterproofing Co.
                 permeable, durable, protects paints & plasters against harmful influences form within the
                 masonry.</dd>
         </li>
+
         <li>
             <dt>
-                SafeCoat:
+                Elastomeric:
             </dt>
             <dd>
-                Giant SafeCoat is a fiber reinforced elastomeric liquid applied water proofing membrane. It
-                is formulated with select elastomeric and resilient acrylic polymers and reinforcing
-                polyester fibers. Upon curing, it forms a thick, seamless, durable membrane thus offering
-                ultimate waterproofing. Can be used for building roofs, terraces, parapet, sunshades and
-                exterior vertical walls. It can also be applied on existing IPS, sound brick-bat coba or
-                cementatious waterproofing.
+                Giant Elastomeric is a high performance elastomeric membrane for crack bridging. 
+                It features curing through crosslinking and is highly UV durable. 
+                It features ability to elongate upto 250 percent. 
+                It can be used on variety of substrates as a mortar mix with sand and cement.
             </dd>
         </li>
     </ol>
 </dl>
 </p>
-<h2 class="procedure">Waterproofing with Procedure (4 Layer)</h2>
+<h2 class="procedure">Waterproofing with Procedure (4 layer)</h2>
 <p class="description">
 <ol style="margin-left: 50px; line-height:1.8rem; font-weight:600; font-style:italic;">
     <li>Clean the surface by rubbing with wire brush & other mechanical tools to remove dust, and other
         loose materials. Repairing of Cracks work will be carried out as per requirement on Basement by
         RainPrime with cement.</li>
-    <li>Apply 1st Coat Giant RainPrime with cement </li>
-    <li>Apply 2nd & 3rd & 4th perpendicular coats of SafeCoat without dilution. Highly waterproofing &
-        crack resistant coating).</li>  
-        
+    <li>Apply 1st Coat.( Neno Coat) Giant RainPrime and RainSiller.</li>
+    <li>Apply 2nd & 3rd coating of Giant RainPrime with cement dilution (Highly waterproofing & crack
+        resistant coating).</li>
+    <li>Apply 4th coats of Elastomeric with cement without dilution. Highly waterproofing &
+        crack resistant coating).</li>
 </ol>
 </p>
 <h2 class="area-detail-heading">Area Details Provided By Candidate</h2>
@@ -96,28 +118,31 @@ Giant Waterproofing Co.
 <h3 style="color: red; margin: 50px 0; ">Note:</h3>
 <p style="border:1px solid red; padding:15px;">All details provided by candidate via tele-communication is considered in this document. If any changes found while measuring area on site, then that area will be considered in contract and amount will changed accordingly.</p>
 <h3 style="margin-top: 40px; text-align:center;">Product for Terrace Waterproofing
-    Area <span class="total">${feet}</span>sq.ft (Approx.)
+    Area <span class="total">${feet}</span>.ft (Approx.)
 </h3>
 <table border="1">
     <thead>
         <tr>
             <td>S.No</td>
-            <td>Product</td>
+            <td><strong>Product</strong></td>
         </tr>
     </thead>
     <tbody>
-        
         <tr>
             <td>1</td>
-            <td>RainPrime</td>
+            <td><strong>RainSiller</strong></td>
         </tr>
         <tr>
             <td>2</td>
-            <td>SafeCoat</td>
+            <td><strong>RainPrime</strong></td>
         </tr>
         <tr>
             <td>3</td>
-            <td>Cement</td>
+            <td><strong>Elastomeric</strong></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td><strong>Cement</strong></td>
         </tr>
     </tbody>
 </table>
@@ -132,7 +157,7 @@ Giant Waterproofing Co.
                 </li>
                 <li>
                     <dt>Payment Terms:</dt>
-                    <dd>100 % Matrials Advance along with work order. Balance Amount complete  work.</dd>
+                    <dd><strong>100 % Materials Advance</strong> along with work order. Balance Amount complete  work.</dd>
                 </li>
                 <li>
                     <dt>Transport Fee Extra</dt>
@@ -170,7 +195,7 @@ Giant Waterproofing Co.
                     <dd>Necessary construction water and power required forexecution of our work should be provided free of cost by you.</dd>
                 </li>
             </ol>
-            <h4 style="border:1px solid blue; padding: 20px; margin-top:20px;">Warranty : 5 Years (five Years) (from the date of completion of the work )
+            <h4 style="border:1px solid blue; padding: 20px; margin-top:20px;">Warranty : 5 Years (Five Years) (from the date of completion of the work )
                 </h4>
             
         </dl>
@@ -179,7 +204,7 @@ Giant Waterproofing Co.
         <h2>Bank Account Details[HDFC Bank]</h2>
         <h3>Name: Giant WaterProofing Co.</h3>
         <h3>A/C No: 50100279317630</h3>
-        <h3>IFSC Code:HDFC0005386</h3>
+        <h3>IFSC Code: HDFC0005386</h3>
     </div>
     <div class="qr-code">
         <img src="qr.jpg" alt="">
@@ -187,15 +212,15 @@ Giant Waterproofing Co.
     <div class="contact">
         <h3>Contact US</h3>
         <p class="contact-details">
-            Name: <span class="name">roy barkhane</span><br>
-            Mobile: <span class="mobile">+919111469300</span>
+            Name: <span class="name">Rajneekant Barkhane</span>
+            Mobile: <span class="mobile">+916260363953</span>
             Email: <span class="email">info@giant.com.co</span>
-            Web: <span class="website">giantwaterproofing.in</span>
+            Website: <span class="website">www.giantwaterproofing.in</span>
         </p>
     </div>
     <div class="footer">
         <h2>Address</h2>
-        <p class="address"><strong>HEAD OFFICE</strong>: 385 Giant Infront of Dovt ITI, Nasrullaganj, Bhopal, Madhya Pradesh (M.P.)-466331)</p>
+        <p class="address"><strong>HEAD OFFICE</strong>: Giant Waterproofing Co. 385 Giant Infront of Govt ITI, Nasrullaganj, Bhopal, Madhya Pradesh (M.P.)-466331)</p>
     </div></div>
     `;
 });
