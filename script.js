@@ -17,7 +17,7 @@ Giant Waterproofing Co.
 </h2>
 <div class="reg-date">
     <div class="reg-num">GWC/R/16776/2022</div>
-    <div class="date"><span class="dd">${date.getDate()}</span>.<span class="mm">${date.getMonth()}</span>.<span class="yyyy">${date.getFullYear()}</span></div>
+    <div class="date"><span class="dd">${date.getDate()}</span>.<span class="mm">${*(*(date.getMonth()<10)?'0'+(date.getMonth()+1):(date.getMonth()+1)*<10)?'0'+(*(date.getMonth()<10)?'0'+(date.getMonth()+1):(date.getMonth()+1)*+1):(*(date.getMonth()<10)?'0'+(date.getMonth()+1):(date.getMonth()+1)*+1)*}</span>.<span class="yyyy">${date.getFullYear()}</span></div>
 </div>
 <div class="name-add">
     <h3 class="name">${ab+' '+name}</h2>
