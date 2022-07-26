@@ -25,7 +25,7 @@ f.addEventListener('submit',(e)=>{
 Giant Waterproofing Co.
 </h2>
 <div class="reg-date">
-    <div class="reg-num">GWC/R/16776/2022</div>
+    <div class="reg-num">GWC/R/5526/2022</div>
     <div class="date"><span class="dd">${(date.getDate()<10)?'0'+date.getDate():date.getDate()}</span>.<span class="mm">${((date.getMonth()+1)<10)?'0'+(date.getMonth()+1):date.getMonth()+1}</span>.<span class="yyyy">${date.getFullYear()}</span></div>
 </div>
 <div class="name-add">
@@ -36,14 +36,7 @@ Giant Waterproofing Co.
 <h4 class="salutation">Dear sir,</h2>
 <p class="msg">
 <p style="margin-top:20px;">
-    We thank you very much for your kind inquiry for waterproofing on Roof area. Please note that our parent
-    company <strong>Giant Group Ltd</strong> is manufacturer of wide range of constructions chemical,
-    waterproofing, heat
-    proofing chemicals as per the international standards. In the brand name of <strong>“Giant“</strong>
-    since last 15
-    years.
-
-    <strong>Giant</strong> is a leading waterproofing expert assuring the right waterproofing solutions for <strong>leak-free homes </strong>
+    We thank you very much for your kind inquiry for waterproofing on Roof area. <strong>Giant</strong> is a leading waterproofing expert assuring the right waterproofing solutions for <strong>leak-free homes </strong>
     with the best waterproofing <strong>services in India</strong>.
 </p>
 <p style="margin-top:20px;">
@@ -57,36 +50,26 @@ Giant Waterproofing Co.
 ">Description of Chemicals:</h3>
 <dl class="chem-des">
     <ol>
-        <li>
+<li>
             <dt>
                 RainSiler :
             </dt>
             <dd>
-                <strong> Anti-Fungal, Penetrative & Nano technology of waterproofing.</strong> Drastic
-                Reduction in masonry maintenance cost with long term improved resistance to vagaries of
-                weather Protects Building, saves energy, keeps Substrate dry reducing the thermal
-                conductivity. A water dilatable solution designed to impart repellency to masonry surface.
-            </dd>
+                 <strong>RainSiller is a reactive organosilane based waterproofing agent that seals upto nano-pore level.</strong> It has an ability to penetrate upto 2 mm deep inside the substrate and becomes a permanent integral part of the structure. It reacts and converts the hydrophilic chemical groups of the substrate into hyrdrophobic groups. RainSiller is water dilutable, safe, sprayable and easy to apply. RainSiller is non-leachable, UV resistant, breathable and does not present peel-off issues unlike conventional polymer coatings.
         </li>
         <li>
             <dt>
                 RainPrime :
             </dt>
-            <dd>RainPrime plays major role in facade coating system . It forms a dry water repellent zone
-                beneath the coating consolidate the substrate and enhance bonding of the coating. It is gas
-                permeable, durable, protects paints & plasters against harmful influences form within the
-                masonry.</dd>
+            <dd><strong>RainPrime is an acrylic co-polymer emulsion supplied as a ready to use bonding agent</strong> with superior wet adhesion and universal compatibility. It is also a versatile latex that can be used as a cement modifier for spalled concrete slabs, overhangs, beams, columns and floors. It is also used as a bonding primer and porosity filler with RainSiller during waterproofing applications.</dd>
         </li>
 
         <li>
             <dt>
-                Elastomeric:
+                SafeCoat:
             </dt>
             <dd>
-                Giant Elastomeric is a high performance elastomeric membrane for crack bridging. 
-                It features curing through crosslinking and is highly UV durable. 
-                It features ability to elongate upto 250 percent. 
-                It can be used on variety of substrates as a mortar mix with sand and cement.
+                <strong>Giant SafeCoat</strong> is a high performance elastomeric roof coating designed to be used along with RainSiller. It is highly UV durable and has a service life of up to 10 years. It features the ability to bridge cracks up to 1.5 mm. In combination with RainSiller ,SafeCoat provides a waterproofing system that is a combination of a penetrative barrier with a seamless top coat resulting in superior performance..
             </dd>
         </li>
     </ol>
@@ -98,11 +81,9 @@ Giant Waterproofing Co.
     <li>Clean the surface by rubbing with wire brush & other mechanical tools to remove dust, and other
         loose materials. Repairing of Cracks work will be carried out as per requirement on Basement by
         RainPrime with cement.</li>
-    <li>Apply 1st Coat.( Neno Coat) Giant RainPrime and RainSiller.</li>
-    <li>Apply 2nd & 3rd coating of Giant RainPrime with cement dilution (Highly waterproofing & crack
-        resistant coating).</li>
-    <li>Apply 4th coats of Elastomeric with cement without dilution. Highly waterproofing &
-        crack resistant coating).</li>
+    <li>Apply 1st Coating Giant RainPrime and RainSiller.</li>
+    <li>Apply 2nd & 3rd coating of Giant SafeCoat with dilution.</li>
+    <li>Apply 4th coats of Giant SafeCoat with without dilution.</li>
 </ol>
 </p>
 <h2 class="area-detail-heading">Area Details Provided By Candidate</h2>
@@ -138,7 +119,7 @@ Giant Waterproofing Co.
         </tr>
         <tr>
             <td>3</td>
-            <td><strong>Elastomeric</strong></td>
+            <td><strong>SafeCoat</strong></td>
         </tr>
         <tr>
             <td>5</td>
@@ -203,7 +184,7 @@ Giant Waterproofing Co.
     <div class="company-details">
         <h2>Bank Account Details[HDFC Bank]</h2>
         <h3>Name: Giant WaterProofing Co.</h3>
-        <h3>A/C No: 50100279317630</h3>
+        <h3>A/C No: 50200069668033</h3>
         <h3>IFSC Code: HDFC0005386</h3>
     </div>
     <div class="qr-code">
@@ -212,15 +193,15 @@ Giant Waterproofing Co.
     <div class="contact">
         <h3>Contact US</h3>
         <p class="contact-details">
-            Name: <span class="name">Rajneekant Barkhane</span>
-            Mobile: <span class="mobile">+916260363953</span>
+            Name: <span class="name">Giant Sales Team</span>
+            Mobile: <span class="mobile">+919111469300</span>
             Email: <span class="email">info@giant.com.co</span>
             Website: <span class="website">www.giantwaterproofing.in</span>
         </p>
     </div>
     <div class="footer">
         <h2>Address</h2>
-        <p class="address"><strong>HEAD OFFICE</strong>: Giant Waterproofing Co. 385 Giant Infront of Govt ITI, Nasrullaganj, Bhopal, Madhya Pradesh (M.P.)-466331)</p>
+        <p class="address"><strong>HEAD OFFICE</strong>: Giant Waterproofing Co. Office at Lal Bahadur Shastri Rd, Kismat Nagar, Kurla, Mumbai, Maharashtra 400070</p>
     </div></div>
     `;
 });
