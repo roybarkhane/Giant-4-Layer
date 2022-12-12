@@ -123,7 +123,7 @@ Giant Waterproofing Co.
             <td><strong>SafeCoat</strong></td>
         </tr>
         <tr>
-            <td>5</td>
+            <td>4</td>
             <td><strong>Cement</strong></td>
         </tr>
     </tbody>
