@@ -82,7 +82,8 @@ Giant Waterproofing Co.
         loose materials. Repairing of Cracks work will be carried out as per requirement on Basement by
         RainPrime with cement.</li>
     <li>Apply 1st Coating Giant RainPrime and RainSiller.</li>
-    <li>Apply 2nd & 3rd coating of Giant SafeCoat with dilution.</li>
+    <li>Apply 2nd coating of Giant RainPrime with Cement.</li>
+    <li>Apply 3rd coats of Giant SafeCoat with with dilution.</li>
     <li>Apply 4th coats of Giant SafeCoat with without dilution.</li>
 </ol>
 </p>
@@ -194,7 +195,7 @@ Giant Waterproofing Co.
         <h3>Contact US</h3>
         <p class="contact-details">
             Name: <span class="name">Giant Sales Team</span>
-            Mobile: <span class="mobile">+919111469300</span>
+            Mobile: <span class="mobile">+917470612116</span>
             Email: <span class="email">info@giant.com.co</span>
             Website: <span class="website">www.giantwaterproofing.in</span>
         </p>
