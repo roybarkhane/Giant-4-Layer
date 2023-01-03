@@ -81,8 +81,7 @@ Giant Waterproofing Co.
     <li>Clean the surface by rubbing with wire brush & other mechanical tools to remove dust, and other
         loose materials. Repairing of Cracks work will be carried out as per requirement on Basement by
         RainPrime with cement.</li>
-    <li>Apply 1st Coating Giant RainPrime.</li>
-    <li>Apply 2nd coating of Giant RainPrime with Cement.</li>
+    <li>Apply 1st & 2nd coating of Giant RainPrime with Cement..</li>
     <li>Apply 3rd coats of Giant SafeCoat with with dilution.</li>
     <li>Apply 4th coats of Giant SafeCoat with without dilution.</li>
 </ol>
