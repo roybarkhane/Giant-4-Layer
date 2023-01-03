@@ -81,7 +81,7 @@ Giant Waterproofing Co.
     <li>Clean the surface by rubbing with wire brush & other mechanical tools to remove dust, and other
         loose materials. Repairing of Cracks work will be carried out as per requirement on Basement by
         RainPrime with cement.</li>
-    <li>Apply 1st Coating Giant RainPrime and RainSiller.</li>
+    <li>Apply 1st Coating Giant RainPrime.</li>
     <li>Apply 2nd coating of Giant RainPrime with Cement.</li>
     <li>Apply 3rd coats of Giant SafeCoat with with dilution.</li>
     <li>Apply 4th coats of Giant SafeCoat with without dilution.</li>
@@ -112,18 +112,14 @@ Giant Waterproofing Co.
     <tbody>
         <tr>
             <td>1</td>
-            <td><strong>RainSiller</strong></td>
-        </tr>
-        <tr>
-            <td>2</td>
             <td><strong>RainPrime</strong></td>
         </tr>
         <tr>
-            <td>3</td>
+            <td>2</td>
             <td><strong>SafeCoat</strong></td>
         </tr>
         <tr>
-            <td>4</td>
+            <td>3</td>
             <td><strong>Cement</strong></td>
         </tr>
     </tbody>
@@ -178,7 +174,7 @@ Giant Waterproofing Co.
                 </li>
             </ol>
             <h4 style="border:1px solid blue; padding: 20px; margin-top:20px;">Warranty : 8 Years (Eight Years) (from the date of completion of the work )
-                </h4>
+               <b>T&C Apply</b> </h4>
             
         </dl>
     </p>
