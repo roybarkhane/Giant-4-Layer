@@ -75,7 +75,7 @@ tr:nth-child(even) {
     <td><h2>4 Layer Working</h2>
     <b>(4 Year Warranty) <b></td>
     <td><b><span class="sqfit"> ${feet} </span>&times;<span class="rate"> ${rate4} </span><b></td>
-    <td><b><span class="total"><h2>&#x20B9;${feet * rate4 * 118 / 100}</span></h2><b>
+    <td><b><span class="total"><h2>&#x20B9;${feet * rate4}</span></h2><b>
 (18 % GST Including)</td>
   </tr>
   
