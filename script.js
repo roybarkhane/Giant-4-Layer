@@ -21,7 +21,7 @@ f.addEventListener('submit', (e) => {
     btnsection.appendChild(print);
     print.addEventListener('click', printDocument);
     document.querySelector("main").innerHTML = `
-    <div class="logo"><img src="logo.png" alt=""></div>
+    <div class="logo"><img src="logo.svg" alt=""></div>
 <h2 class="company-name">
 Giant Waterproofing Company
 </h2>
