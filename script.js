@@ -142,7 +142,7 @@ tr:nth-child(even) {
 <p class="Rate-details">
     Rs <strong class="rate">${rate4}</strong> per sq fit.(Rates are inclusive Chemicals, mechanical tools, Labor, & Supervision etc)
 </p>
-<h2 class="total-amount" style="border: 1px solid blue; display:inline-block; padding: 10px;">Total Amount: <span class="sqfit"> ${feet} </span>&times;<span class="rate"> ${rate4} </span>=<span class="total">&#x20B9;${feet * rate4 * 118 / 100} Cost of 4 layer waterproofing</span></h2>
+<h2 class="total-amount" style="border: 1px solid blue; display:inline-block; padding: 10px;">Total Amount: <span class="sqfit"> ${feet} </span>&times;<span class="rate"> ${rate4} </span>=<span class="total">&#x20B9;${feet * rate4} Cost of 4 layer waterproofing</span></h2>
 
 
 <h3 style="color: red; margin: 50px 0; ">Note:</h3>
