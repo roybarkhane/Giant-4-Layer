@@ -73,10 +73,9 @@ tr:nth-child(even) {
   </tr>
   <tr>
     <td><h2>4 Layer Working</h2>
-    <b>(4 Year Warranty) <b></td>
+    <b>(8 Year Warranty) <b></td>
     <td><b><span class="sqfit"> ${feet} </span>&times;<span class="rate"> ${rate4} </span><b></td>
-    <td><b><span class="total"><h2>&#x20B9;${feet * rate4}</span></h2><b>
-(18 % GST Including)</td>
+    <td><b><span class="total"><h2>&#x20B9;${feet * rate4}</span></h2><b></td>
   </tr>
   
   
@@ -180,7 +179,7 @@ tr:nth-child(even) {
 
 </li>
             </ol>
-            <h4 style="border:1px solid blue; padding: 20px; margin-top:20px;">Warranty : 4 Years (four Years) (for 4 Layer Waterproofing Service ) <b>T&C Apply</b>
+            <h4 style="border:1px solid blue; padding: 20px; margin-top:20px;">Warranty : 8 Years (Eight Years) (for 4 Layer Waterproofing Service ) <b>T&C Apply</b>
                 </h4>  
 
 
@@ -191,7 +190,7 @@ tr:nth-child(even) {
             <ol>
                 <li>
                     <dt>Taxes:</dt>
-                    <dd><strong>18 % GST Including.</strong></dd>
+                    <dd><strong>18 % GST Extra.</strong></dd>
                 </li>
                 <li>
                     <dt>Payment Terms:</dt>
